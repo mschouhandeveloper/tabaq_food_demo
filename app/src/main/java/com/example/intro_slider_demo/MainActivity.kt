@@ -4,7 +4,6 @@ import android.content.Context
 import android.content.Intent
 import android.graphics.Color
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Html
 import android.view.LayoutInflater
@@ -13,7 +12,9 @@ import android.view.ViewGroup
 import android.view.WindowManager
 import android.widget.Button
 import android.widget.LinearLayout
+import android.widget.RelativeLayout
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager.widget.PagerAdapter
 import androidx.viewpager.widget.ViewPager
 
@@ -57,7 +58,7 @@ class MainActivity : AppCompatActivity() {
             addBottomDots(position)
             if (position == layouts!!.size - 1) {
                 btnNext!!.text = getString(R.string.start)
-                btnNext!!.width = 315
+              //  btnNext!!.layoutParams = RelativeLayout.LayoutParams(315, 44) // = RelativeLayout.LayoutParams(315, 44)
                 btnSkip!!.visibility = View.GONE
             } else {
                 btnNext!!.text = getString(R.string.next)
