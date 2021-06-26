@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Intro_Slider_demo</string>
+
+    <!--Swipe intro strings-->
+    <string name="next">NEXT</string>
+    <string name="skip">Skip</string>
+    <string name="start">GET STARTED</string>
+    <string name="slide_1_title">Eat home cooked meals</string>
+    <string name="slide_1_desc">Order from the best local chefs and enjoy fresh home-made <meals class=""></meals></string>
+    <string name="slide_2_title">Choose your food</string>
+    <string name="slide_2_desc">Easily find your type of food craving and follow the cooks for new meals everyday.</string>
+    <string name="slide_3_desc">Use the App to give back to the community through cooking and transporting food to needy people</string>
+    <string name="slide_3_title">Give back to community</string>
+
+
+</resources>
