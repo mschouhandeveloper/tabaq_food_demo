@@ -50,6 +50,7 @@ class MainActivity : AppCompatActivity() {
         viewPager = findViewById(R.id.view_pager)
         dotsLayout = findViewById(R.id.layoutDots)
         btnSkip = findViewById(R.id.btn_skip)
+        btnSkip!!.setBackgroundColor(getColor(R.color.parent))
         btnNext = findViewById(R.id.btn_next)
     }
 
@@ -57,9 +58,13 @@ class MainActivity : AppCompatActivity() {
         override fun onPageSelected(position: Int) {
             addBottomDots(position)
             if (position == layouts!!.size - 1) {
-                btnNext!!.text = getString(R.string.start)
-              //  btnNext!!.layoutParams = RelativeLayout.LayoutParams(315, 44) // = RelativeLayout.LayoutParams(315, 44)
                 btnSkip!!.visibility = View.GONE
+                btnNext!!.text = getString(R.string.start)
+               // btnNext!!.layoutParams = RelativeLayout.LayoutParams(315, 44)   // = RelativeLayout.LayoutParams(315, 44)
+              // btnNext!!.setBackgroundColor(getColor(R.color.purple_200))
+//                btnNext!!.
+                btnNext!!.maxWidth
+
             } else {
                 btnNext!!.text = getString(R.string.next)
                 btnSkip!!.visibility = View.VISIBLE
@@ -85,7 +90,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setListeners() {
         btnSkip!!.setOnClickListener {
-           // launchHomeScreen()
+            launchHomeScreen()
         }
         btnNext!!.setOnClickListener {
             val current = getItem(+1)

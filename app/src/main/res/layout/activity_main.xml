@@ -19,14 +19,6 @@
             android:layout_height="match_parent"/>
     </FrameLayout>
 
-    <!--    <View-->
-    <!--        android:elevation="10dp"-->
-    <!--        android:layout_marginBottom="150dp"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="1dp"-->
-    <!--        android:alpha=".5"-->
-    <!--        android:background="@color/white"/>-->
-
     <LinearLayout
         android:layout_alignBottom="@+id/fl"
         android:elevation="10dp"
@@ -35,6 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="5dp"
         android:gravity="center"
+        android:layout_marginBottom="@dimen/dp_150"
         android:orientation="horizontal"/>
 
     <androidx.appcompat.widget.AppCompatButton
@@ -51,10 +44,10 @@
     <androidx.appcompat.widget.AppCompatButton
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
+        android:theme="@style/Theme.demo_theme"
         android:id="@+id/btn_skip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/parent"
         android:text="@string/skip"
         android:textColor="@color/white"/>
 
