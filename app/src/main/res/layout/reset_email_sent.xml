@@ -22,16 +22,18 @@
 
 
     <TextView
-        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="26dp"
+        android:fontFamily="@font/inter_semi_bold"
+        android:text="@string/reset_email_sent"
         android:textColor="@color/verify_phone"
         android:textSize="28dp"
-        android:layout_marginLeft="@dimen/dp_30"
-        android:text="@string/reset_email_sent"
-        android:layout_marginTop="26dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:textStyle="bold" />
 
     <TextView
+       android:fontFamily="@font/inter_regular"
         android:textColor="@color/textdesc"
         android:layout_marginRight="17dp"
         android:textSize="@dimen/sp_16"
@@ -42,6 +44,7 @@
         android:layout_height="wrap_content"/>
 
     <Button
+        android:fontFamily="@font/inter_semi_bold"
         android:text="Send Again"
         android:layout_marginTop="35dp"
         android:layout_marginHorizontal="@dimen/dp_30"

@@ -62,10 +62,10 @@ class MainActivity : AppCompatActivity() {
             if (position == layouts!!.size - 1) {
 
                 btnSkip!!.visibility = View.GONE
-              // btnNext!!.visibility = View.GONE
-               // btnNext!!.text = getString(R.string.start)
+               // btnNext!!.visibility = View.GONE
+               btnNext!!.text = getString(R.string.start)
              //   btngetstarted!!.visibility = View.VISIBLE
-             //   btn_get_started!!.text = getString(R.string.start)
+            //   btn_get_started!!.text = getString(R.string.start)
 
             } else {
                 btnNext!!.text = getString(R.string.next)
@@ -74,8 +74,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         override fun onPageScrolled(arg0: Int, arg1: Float, arg2: Int) {}
-
         override fun onPageScrollStateChanged(arg0: Int) {}
+
     }
 
     private fun setDots() {

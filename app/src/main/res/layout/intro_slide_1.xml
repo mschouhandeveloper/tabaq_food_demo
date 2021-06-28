@@ -20,6 +20,7 @@
             android:src="@drawable/walkthrough_1"/>
 
         <TextView
+            android:fontFamily="@font/inter_semi_bold"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:text="@string/slide_1_title"
@@ -32,6 +33,7 @@
             android:textColor="@color/texttitle"/>
 
         <TextView
+            android:fontFamily="@font/inter_regular"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:text="@string/slide_1_desc"
