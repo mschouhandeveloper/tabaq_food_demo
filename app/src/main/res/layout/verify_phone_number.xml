@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/verify_phone_baground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/verify_phone"
+        android:layout_marginHorizontal="@dimen/dp_110"
+        android:layout_marginTop="96dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:textColor="@color/parent"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="26dp"
+        android:text="@string/verify_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+
+        android:textSize="16dp"
+        android:textColor="@color/verify_phone_text"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="11dp"
+        android:text="@string/eneter_four_digit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/phone_color"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:text="@string/phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:background="@drawable/edit_box_shape"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:paddingVertical="4sp"
+            android:paddingHorizontal="@dimen/sp_16"
+            android:layout_width="62dp"
+            android:layout_height="@dimen/dp_50"/>
+
+        <EditText
+            android:background="@drawable/edit_box_shape"
+            android:layout_marginLeft="23dp"
+            android:paddingVertical="4sp"
+            android:paddingHorizontal="@dimen/sp_16"
+            android:layout_width="62dp"
+            android:layout_height="@dimen/dp_50"/>
+
+        <EditText
+            android:background="@drawable/edit_box_shape"
+            android:layout_marginLeft="23dp"
+            android:paddingVertical="4sp"
+            android:paddingHorizontal="@dimen/sp_16"
+            android:layout_width="62dp"
+            android:layout_height="@dimen/dp_50"/>
+
+        <EditText
+            android:background="@drawable/edit_box_shape"
+            android:layout_marginLeft="23dp"
+            android:paddingVertical="4sp"
+            android:paddingHorizontal="@dimen/sp_16"
+            android:layout_width="62dp"
+            android:layout_height="@dimen/dp_50"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="@dimen/dp_30"
+        android:text="Continue"
+        android:layout_marginHorizontal="@dimen/dp_30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/didnot_receive_code"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginLeft="@dimen/dp_5"
+            android:textColor="@color/button"
+            android:text="@string/resend_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_marginRight="17dp"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="11dp"
+        android:text="@string/terms_and_condition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

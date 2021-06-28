@@ -11,7 +11,8 @@
     <!-- Intro swipe layout colors-->
     <color name="child">#DADADB</color>
     <color name="parent">#192C54</color>
-    <color name="bg_screen3">#F44336</color>
+    <color name="verify_phone_baground">#DADADB</color>
+    <color name="phone_color">#192C54</color>
     <color name="bg_screen4">#D500F9</color>
 
     <!-- dots inactive colors -->
@@ -29,6 +30,8 @@
     <color name="texttitle">#192C54</color>
     <color name="textdesc">#6B7386</color>
     <color name="button">#ED1B46</color>
+    <color name="verify_phone_text">#6B7386</color>
+    <color name="verify_phone">#192C54</color>
 
     <array name="array_dot_active">
         <item>@color/dot_light_screen1</item>

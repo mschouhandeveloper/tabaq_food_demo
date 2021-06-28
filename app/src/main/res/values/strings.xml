@@ -12,5 +12,18 @@
     <string name="slide_3_desc">Use the App to give back to the community through cooking and transporting food to needy people</string>
     <string name="slide_3_title">Give back to community</string>
 
+    <string name="verify_phone_number">Verify Phone Number</string>
+    <string name="eneter_four_digit">Enter the 4-Digit code sent to you at </string>
+    <string name="phone_number">(966) 50 - 123 - 5678</string>
+    <string name="didnot_receive_code">Didn’t receive code?</string>
+    <string name="resend_again"><u>Resend Again.</u></string>
+    <string name="forgot_pass">Forgot Password</string>
+    <string name="terms_and_condition">By Signing up you agree to our Terms Conditions &amp; Privacy Policy.</string>
+    <string name="reset_instruction">Enter your email address and we will send you a reset instructions.</string>
+    <string name="eamil_add">Email Address</string>
+    <string name="reset_email_sent">Reset Email Sent</string>ED1B46
+
+    <string name="send_inst_email">We have sent a instructions email to lisajohnson@gmail.com <u> <font color="#ED1B46"/> Having Problem? </u> </string>
+
 
 </resources>

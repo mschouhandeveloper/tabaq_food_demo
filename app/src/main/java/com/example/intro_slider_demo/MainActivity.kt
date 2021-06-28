@@ -25,8 +25,9 @@ class MainActivity : AppCompatActivity() {
     private var dotsLayout: LinearLayout? = null
     private var dots: Array<TextView?> = emptyArray()
     private var layouts: IntArray? = null
-    private var btnSkip: Button? = null
+    private var btnSkip: TextView? = null
     private var btnNext: Button? = null
+    private var btngetstarted: Button? = null
     private lateinit var prefManager: ApplicationPrefs
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -52,18 +53,19 @@ class MainActivity : AppCompatActivity() {
         btnSkip = findViewById(R.id.btn_skip)
         btnSkip!!.setBackgroundColor(getColor(R.color.parent))
         btnNext = findViewById(R.id.btn_next)
+        btngetstarted = findViewById(R.id.btn_get_started)
     }
 
     private var viewPagerPageChangeListener: ViewPager.OnPageChangeListener = object : ViewPager.OnPageChangeListener {
         override fun onPageSelected(position: Int) {
             addBottomDots(position)
             if (position == layouts!!.size - 1) {
+
                 btnSkip!!.visibility = View.GONE
-                btnNext!!.text = getString(R.string.start)
-               // btnNext!!.layoutParams = RelativeLayout.LayoutParams(315, 44)   // = RelativeLayout.LayoutParams(315, 44)
-              // btnNext!!.setBackgroundColor(getColor(R.color.purple_200))
-//                btnNext!!.
-                btnNext!!.maxWidth
+              // btnNext!!.visibility = View.GONE
+               // btnNext!!.text = getString(R.string.start)
+             //   btngetstarted!!.visibility = View.VISIBLE
+             //   btn_get_started!!.text = getString(R.string.start)
 
             } else {
                 btnNext!!.text = getString(R.string.next)

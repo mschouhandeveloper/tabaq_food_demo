@@ -18,23 +18,24 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
     </FrameLayout>
-
+    <!--        android:layout_alignBottom="@+id/fl"-->
     <LinearLayout
-        android:layout_alignBottom="@+id/fl"
+
         android:elevation="10dp"
         android:layout_alignParentBottom="true"
         android:id="@+id/layoutDots"
         android:layout_width="match_parent"
         android:layout_height="5dp"
         android:gravity="center"
-        android:layout_marginBottom="@dimen/dp_150"
+        android:layout_marginBottom="200dp"
         android:orientation="horizontal"/>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginRight="@dimen/dp_40"
+        android:layout_marginBottom="@dimen/dp_40"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:id="@+id/btn_next"
-
         android:layout_width="@dimen/dp_150"
         android:layout_height="44dp"
         android:background="@color/button"
@@ -42,6 +43,22 @@
         android:textColor="@color/white"/>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginBottom="@dimen/dp_40"
+        android:id="@+id/btn_get_started"
+        android:text="@string/start"
+        android:visibility="gone"
+        android:background="@color/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:textSize="@dimen/sp_16"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginBottom="@dimen/dp_50"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:theme="@style/Theme.demo_theme"
